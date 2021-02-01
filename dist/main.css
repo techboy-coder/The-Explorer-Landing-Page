@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'Fraunces', serif;
+}
+
+body .header-height {
+  height: 90vh;
+}
+
+@media (max-width: 768px) {
+  body .move-above {
+    top: -100px;
+  }
+}
+
+@media (min-width: 769px) {
+  body .move-above {
+    top: -90px;
+  }
+}
+
+body .section-bg {
+  background-image: url("./img/max-kleinen-oMbM9b2qFkM-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+body .hero {
+  background-image: url("./img/john-towner-JgOeRuGD_Y4-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/*# sourceMappingURL=main.css.map */

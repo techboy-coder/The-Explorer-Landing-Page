@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Explorer | Landingpage</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="bg-black">
+  <div class="hero header-height">
+    <nav class="shadow sm:mb-0 mb-10">
+      <div class="container mx-auto px-6 py-3 sm:flex sm:justify-between sm:items-center">
+        <div class="flex justify-between items-center">
+          <div>
+            <a class="text-gray-100 text-xl font-bold sm:text-2xl hover:text-gray-200" href="#"><img class="inline"
+                src="./img/Ecology & Nature - Color/SVG/Forest.svg" alt="The Explorer" width="65"></a>
+          </div>
+
+          <!-- Mobile menu button -->
+          <div class="flex sm:hidden">
+            <button type="button" class="text-gray-100 hover:text-gray-200 focus:outline-none focus:text-gray-100"
+              aria-label="toggle menu" onclick="toggle_nav()">
+              <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
+                <path fill-rule="evenodd"
+                  d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
+                </path>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
+        <div class="sm:flex items-center hidden sm:block font-medium" id="nav-item-important">
+          <div class="flex flex-col sm:flex-row sm:mx-6 lg:text-lg text-normal items-center">
+            <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">The Explorer</a>
+            <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">About</a>
+            <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">Blog</a>
+            <button class="ring-4 ring-yellow-500 ring-opacity-20 bg-yellow-600 rounded px-4 py-2 ml-2">
+              <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">Book a Trip</a>
+            </button>
+          </div>
+
+          <!-- <div class="flex justify-center sm:block">
+          <a class="relative text-gray-700 hover:text-gray-600 dark:hover:text-gray-300" href="#">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3 3H5L5.4 5M7 13H17L21 5H5.4M7 13L5.4 5M7 13L4.70711 15.2929C4.07714 15.9229 4.52331 17 5.41421 17H17M17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17ZM9 19C9 20.1046 8.10457 21 7 21C5.89543 21 5 20.1046 5 19C5 17.8954 5.89543 17 7 17C8.10457 17 9 17.8954 9 19Z"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <span class="absolute top-0 left-0 rounded-full bg-yellow-500 text-white p-1 text-xs"></span>
+          </a>
+        </div> -->
+        </div>
+      </div>
+    </nav>
+    <div class="container mx-auto px-6 items-center h-64 flex flex-row justify-start h-2/3 max-w-screen-2xl">
+      <div class="text-white">
+        <h3 class="text-yellow-400 sm:text-xl text-medium font-light capitalize tracking-wide">Lets explore the world
+          together
+        </h3>
+        <h1 class="text-white lg:text-8xl sm:text-6xl text-4xl font-bold mb-4">Be an<span class=""> Explorer.</span>
+        </h1>
+        <p class="opacity-50 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sit voluptas
+          deleniti,
+          esse nam porro odio
+          laudantium eius facilis hic voluptatibus reprehenderit illum itaque quisquam! Illum similique dolorem amet.
+        </p>
+        <button class="ring-4 ring-yellow-500 ring-opacity-20 bg-yellow-600 rounded-full px-4 py-2 ml-2">
+          <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">Book a Trip</a>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="bg-yellow-500">
+    <div class="container mx-auto w-4/5 bg-white move-above relative rounded-lg">
+      <div class="w-5/6 mx-auto py-16">
+        <div class="flex-col space-y-16">
+          <div class="flex justify-between flex-col xl:flex-row">
+            <div class="xl:mr-10 xl:w-1/2 xl:mb-0 mb-10">
+              <h3 class="text-yellow-600 mb-2">It's time to explore the wonders of nature.</h3>
+              <h2 class="text-black font-semibold xl:text-4xl text-2xl mb-4">Our world renowned destinations</h2>
+              <p class="text-black font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+                perspiciatis, a
+                quibusdam mollitia vel explicabo quia voluptatum minus expedita adipisci illum autem nemo voluptates
+                sapiente voluptas iusto. Tenetur, architecto cumque. <br><br></p>
+              <hr>
+              <p class="text-black opacity-75 italic font-light mb-8"><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa porro voluptatem facilis iure
+                animi fugiat, odit dolorum sint blanditiis maxime officia aliquid nihil, itaque doloribus ut similique
+                sunt harum nobis distinctio! Reiciendis, quibusdam quo. Eaque, architecto consequuntur! Possimus natus
+                aperiam necessitatibus ipsam magnam dolore esse consectetur veniam voluptas dolor maxime, nam nobis
+                tempore, assumenda perferendis repudiandae officia.
+              </p>
+              <button class="ring-4 ring-yellow-500 ring-opacity-20 bg-yellow-500 rounded-full px-4 py-2 ml-2">
+                <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">Learn More</a>
+              </button>
+            </div>
+            <div class="flex justify-center items-center xl:w-1/2">
+              <img class="rounded w-full"
+                src="https://images.unsplash.com/photo-1476673160081-cf065607f449?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format"
+                alt="Beach Image">
+            </div>
+          </div>
+          <div class="flex justify-between flex-col-reverse xl:flex-row">
+            <div class="flex justify-center items-center xl:w-1/2">
+              <img class="rounded w-full"
+                src="https://images.unsplash.com/photo-1520962880247-cfaf541c8724?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format"
+                alt="Beach Image">
+            </div>
+            <div class="xl:ml-10 xl:w-1/2 xl:mb-0 mb-10">
+              <h3 class="text-yellow-600 mb-2">Go for a hike.</h3>
+              <h2 class="text-black font-semibold xl:text-4xl text-2xl mb-4">Breathtaking Views</h2>
+              <p class="text-black font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+                perspiciatis, a
+                quibusdam mollitia vel explicabo quia voluptatum minus expedita adipisci illum autem nemo voluptates
+                sapiente voluptas iusto. Tenetur, architecto cumque. <br><br></p>
+              <hr>
+              <p class="text-black opacity-75 italic font-light mb-8"><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa porro voluptatem facilis iure
+                animi fugiat, odit dolorum sint blanditiis maxime officia aliquid nihil, itaque doloribus ut similique
+                sunt harum nobis distinctio! Reiciendis, quibusdam quo. Eaque, architecto consequuntur! Possimus natus
+                aperiam necessitatibus ipsam magnam dolore esse consectetur veniam voluptas dolor maxime, nam nobis
+                tempore, assumenda perferendis repudiandae officia.
+              </p>
+              <button class="ring-4 ring-yellow-500 ring-opacity-20 bg-yellow-500 rounded-full px-4 py-2 ml-2">
+                <a class="my-1 text-gray-200 hover:text-yellow-100 sm:mx-4 sm:my-0" href="#">Learn More</a>
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-16 text-black px-4 section-bg">
+    <div class="container mx-auto grid md:grid-cols-3 sm:grid-cols-2 gap-4 gap-y-10 grid-cols-1 w-full xl:w-3/5">
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_fishing_hoxa.svg" alt="Go Fishing" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Fishing Adventures</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_hiking_d24r.svg" alt="Go Hiking" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Hike Trips</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_Ride_a_bicycle_2yok.svg" alt="Go Mountain Biking" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Mountain Biking</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_environmental_study_skau.svg" alt="Study Nature" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Study Nature</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_into_the_night_vumi (1).svg" alt="Go Camping" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Camping Adventures</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div
+          class="overflow-hidden rounded-lg shadow-lg pb-2 flex flex-col items-center space-y-4 h-96 w-72 bg-white m-auto">
+          <div class="bg-white flex justify-center items-center p-2 pb-4 h-50"><img
+              src="./img/svg/undraw_before_dawn_bqrj.svg" alt="Scenery Gazing" class="rounded-lg w-2/3">
+          </div>
+          <div class="px-2 border-t border-yellow-600 border-opacity-25 pt-4">
+            <h3 class="text-center text-yellow-500 font-semibold text-2xl">Enjoy Amazing Views</h3>
+            <p class="text-center opacity-75 font-medium">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Nulla ab ratione odit
+              voluptatum possimus
+              quod dolore alias expedita, iusto labore.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="bg-white dark:bg-gray-800">
+    <div class="max-w-3xl mx-auto px-6 py-16 text-center">
+      <h1 class="text-2xl font-semibold text-black">Want to get the best travel destinations right into your inbox?</h1>
+      <p class="max-w-md mx-auto mt-5 text-black opacity-75">Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Perferendis, minus tempora nemo quos</p>
+
+      <div class="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:justify-center sm:space-x-4 mt-8">
+        <input id="email" type="text"
+          class="py-2 px-4 bg-white text-gray-700 border border-gray-300 rounded-md focus:border-blue-500 focus:outline-none focus:ring"
+          placeholder="Email Address">
+
+        <button
+          class="py-2 px-4 capitalize tracking-wide bg-yellow-600 text-sm text-white font-medium rounded-md hover:bg-yellow-500 focus:outline-none focus:bg-yellow-500">
+          Get Started
+        </button>
+      </div>
+    </div>
+  </section>
+  <div class="bg-black py-16">
+    <div class="container mx-auto w-4/5">
+      <div class=""></div>
+      <div class="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-4">
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36"
+              src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Mountain Tours</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum
+                maxime saepe
+                harum laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36 w-full"
+              src="https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Islands & Beach</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum
+                maxime saepe
+                harum laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36"
+              src="https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1718&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Jungle</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum
+                maxime saepe
+                harum laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36"
+              src="https://images.unsplash.com/photo-1516417156595-3ca5df62a3a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Desert Tours</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum
+                maxime saepe
+                harum laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36 w-full"
+              src="https://images.unsplash.com/photo-1491002052546-bf38f186af56?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1683&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Ice Paradise</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum
+                maxime saepe
+                harum laborum?</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white h-36 rounded-2xl pr-4 flex">
+          <div class="overflow-hidden rounded-l-2xl w-1/2"><img class="h-36"
+              src="https://images.unsplash.com/photo-1541845157-a6d2d100c931?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              alt="The Alps">
+          </div>
+          <div class="pl-4 flex flex-col justify-center items-center py-4 w-1/2">
+            <div class="">
+              <h4 class="font-semibold">Volcano Adventures</h4>
+              <p class="text-xs opacity-75 pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, autem
+                ipsum? </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-white">
+    <div class="container mx-auto px-6 py-4">
+      <div class="lg:flex">
+        <div class="w-full lg:w-2/5 -mx-6">
+          <div class="px-6">
+            <div>
+              <a href="#" class="text-xl font-bold text-gray-800 hover:text-gray-700">The Explorer</a>
+            </div>
+
+            <p class="mt-2 text-gray-500 max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Reiciendis, nisi!</p>
+
+            <div class="flex mt-4 -mx-2">
+              <a href="#" class="mx-2 text-gray-700hover:text-gray-600" aria-label="Linkden">
+                <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                  <path
+                    d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z" />
+                </svg>
+              </a>
+
+              <a href="#" class="mx-2 text-gray-700 hover:text-gray-600" aria-label="Facebook">
+                <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                  <path
+                    d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z" />
+                </svg>
+              </a>
+
+              <a href="#" class="mx-2 text-gray-700 hover:text-gray-600" aria-label="Twitter">
+                <svg class="h-4 w-4 fill-current" viewBox="0 0 512 512">
+                  <path
+                    d="M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 lg:mt-0 lg:flex-1">
+          <div class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+            <div>
+              <h3 class="text-gray-700 uppercase">About</h3>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Us</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Community</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Careers</a>
+            </div>
+
+            <div>
+              <h3 class="text-gray-700 uppercase">Blog</h3>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Destinations</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Guide</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Videos</a>
+            </div>
+
+            <div>
+              <h3 class="text-gray-700 uppercase">TOURS</h3>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Overview</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Destinations</a>
+              <a href="#" class="block mt-2 text-sm text-gray-600 hover:underline">Reviews</a>
+            </div>
+
+            <div>
+              <h3 class="text-gray-700 uppercase">Contact</h3>
+              <span class="block mt-2 text-sm text-gray-600 hover:underline">+123 456 78 90</span>
+              <span class="block mt-2 text-sm text-gray-600 hover:underline">example@theexplorer.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="h-px my-6 bg-gray-300 dark:bg-gray-700 border-none">
+
+      <div>
+        <p class="text-center text-gray-800">© The Explorer 2020 - All rights reserved | Made with ❤️ by <a
+            href="https://github.com/techboy-coder"
+            class="font-medium text-black hover:text-yellow-500">techboy-coder</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function toggle_nav() {
+      var element = document.getElementById("nav-item-important");
+      if (element.classList.contains("hidden")) {
+        element.classList.remove("hidden");
+      }
+      else {
+        element.classList.add("hidden");
+      }
+
+    }
+  </script>
+</body>
+
+</html>
